@@ -94,6 +94,10 @@ nav a:active {
   border-bottom: transparent;
 }
 
+.tablet-nav {
+  display: none;
+}
+
 .mobile-nav {
   display: none;
 }
@@ -110,12 +114,15 @@ nav a:active {
     height: 64px;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    background-color: #fff;
   }
 
   .mobile-nav img {
     width: 25%;
     height: 34px;
   }
+
 }
 
 /*Banner*/
@@ -183,6 +190,7 @@ nav a:active {
     width: 100%;
     padding: 0px;
     height: 19rem;
+    margin-top: 60px;
   }
 
   .bannertext {
