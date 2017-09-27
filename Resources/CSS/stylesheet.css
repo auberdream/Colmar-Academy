@@ -24,9 +24,22 @@ h1 {
   color: hsl(0, 0%, 30%);
 }
 
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: hsl(0, 0%, 30%);
+}
+
 h5 {
   font-size: 1.6rem;
   font-family: 'Source Sans Pro', sans-serif;
+  color: hsl(0, 0%, 30%);
+}
+
+.content {
+  font-weight: 300;
+  font-size: 0.8rem;
   color: hsl(0, 0%, 30%);
 }
 
@@ -76,6 +89,7 @@ nav ul:last-child {
 
 nav li {
   padding-right: 16px;
+  text-transform: capitalize;
 }
 
 nav a {
@@ -134,7 +148,7 @@ nav a:active {
 }
 
 .banner img {
-  width: 60%;
+  width: 57%;
   padding: 32px 24px;
 }
 
@@ -225,4 +239,80 @@ nav a:active {
     background-color: hsl(0, 0%, 40%);
   }
 
+}
+
+/*first content*/
+.contentone {
+  display: flex;
+  background-color: #fff;
+}
+
+.leftcontent {
+  width: 58%;
+  padding: 32px 24px;
+}
+
+.leftcontent img {
+  width: 100%;
+}
+
+.leftcontent span .content {
+  margin-bottom: 24px;
+}
+
+.leftcontent h2 {
+  padding-bottom: 32px;
+  padding-top: 34px;
+}
+
+.caption {
+  padding-top: 42px;
+  padding-bottom: 32px;
+}
+
+
+.rightcontent {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 32px;
+}
+
+
+.item {
+  display: flex;
+  align-items: center;
+  border: 0.5px hsl(0, 0%, 80%) solid;
+  transition-duration: 800ms;
+}
+
+.item img {
+  width: 35%;
+  padding: 16px;
+}
+
+.item:hover {
+  background-color: hsl(0, 0%, 93%);
+}
+
+.itemtext {
+  padding-right: 24px;
+}
+
+.itemtext .content {
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+
+.itemtext a {
+  text-decoration: none;
+  color: hsl(197, 37%, 55%);
+}
+
+.itemtext a:hover {
+  text-decoration: underline;
+}
+
+.itemtext a:active {
+  text-decoration: none;
 }
